@@ -57,6 +57,8 @@
     background-color: @yellow;
     box-shadow: 0 0 5px @yellow;
     border-radius: 3px;
+
+    // Nested comments shouldn't double-box-shadow
     .comment {
       box-shadow: none;
       background-color: transparent;
@@ -67,67 +69,60 @@
     box-shadow: none;
   }
 
-
   .string {
-    color: #E6DB74;
+    color: @yellow;
   }
 
-  .constant.numeric {
-    color: #AE81FF;
-  }
-
-  .constant.language {
-    color: #AE81FF;
-  }
-
+  .constant.numeric,
+  .constant.language,
   .constant.character,
   .constant.other {
-    color: #AE81FF;
+    color: @indigo;
   }
 
   .keyword {
-    color: #F92672;
+    color: @red;
   }
 
   .storage {
-    color: #F92672;
+    color: @red;
   }
 
   .storage.type {
     font-style: italic;
-    color: #66D9EF;
+    color: @blue;
   }
 
   .entity.name.class {
     text-decoration: underline;
-    color: #A6E22E;
+    color: @green;
   }
 
   .entity.other.inherited-class {
     font-style: italic;
     text-decoration: underline;
-    color: #A6E22E;
+    color: @green;
   }
 
   .entity.name.function {
-    color: #A6E22E;
+    color: @green;
   }
 
   .entity.name.instance {
-    color: #66D9EF;
+    color: @blue;
   }
 
   .variable.parameter {
     font-style: italic;
-    color: #FD971F;
+    color: @orange;
   }
 
   .entity.name.tag {
-    color: #F92672;
+    color: @red;
   }
 
   .entity.other.attribute-name {
-    color: #A6E22E;
+    color: @green;
   }
 
   .support.constant, .support.function {
@@ -137,7 +132,7 @@
   .support.type,
   .support.class {
     font-style: italic;
-    color: #66D9EF;
+    color: @blue;
   }
 
   .invalid {
