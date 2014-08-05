@@ -1,0 +1,21 @@
+{
+  "name": "elly-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A dark syntax theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigdave/elly-syntax"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readme": "# A dark syntax theme\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/bigdave/elly-syntax/issues"
+  },
+  "homepage": "https://github.com/bigdave/elly-syntax",
+}
