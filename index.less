@@ -7,7 +7,7 @@
 
 .editor {
   .invisible-character {
-    color: @syntax-invisible-character-color;
+    color: fade(@syntax-invisible-character-color, 18%);
   }
 
   .indent-guide {
@@ -130,12 +130,8 @@
     color: #A6E22E;
   }
 
-  .support.function {
-    color: #66D9EF;
-  }
-
-  .support.constant {
-    color: #66D9EF;
+  .support.constant, .support.function {
+    color: @blue;
   }
 
   .support.type,
