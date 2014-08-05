@@ -51,9 +51,22 @@
     border: 1px solid @syntax-result-marker-color-selected;
   }
 
+  // Fancy comments, because comments should stand out, or be deleted
   .comment {
-    color: #75715E;
+    color: black;
+    background-color: @yellow;
+    box-shadow: 0 0 5px @yellow;
+    border-radius: 3px;
+    .comment {
+      box-shadow: none;
+      background-color: transparent;
+    }
   }
+  .comment.whitespace {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
 
   .string {
     color: #E6DB74;
