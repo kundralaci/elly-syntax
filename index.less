@@ -38,13 +38,23 @@
     background-color: @syntax-selection-color;
   }
 
-  .search-results .marker .region {
+  // Find formatting
+  .find-result .region {
     background-color: transparent;
-    border: 1px solid @syntax-result-marker-color;
+    border: none;
+    box-shadow:
+      0 0 0 2px black,
+      0 0 0 3px @yellow,
+      0 0 5px 3px @yellow;
+    border-radius: 3px;
   }
-
-  .search-results .marker.current-result .region {
-    border: 1px solid @syntax-result-marker-color-selected;
+  .current-result .region {
+    border: none;
+    box-shadow:
+      0 0 0 1px @syntax-selection-color,
+      0 0 0 3px @yellow,
+      0 0 5px 5px @yellow;
+    border-radius: 3px;
   }
 
   // Fancy comments, because comments should stand out, or be deleted
