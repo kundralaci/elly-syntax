@@ -1,11 +1,9 @@
 @import 'syntax-variables';
 
-.editor-colors {
-  background-color: @syntax-background-color;
-  color: @syntax-text-color;
-}
+atom-text-editor, :host {
+    background-color: @syntax-background-color;
+    color: @syntax-text-color;
 
-.editor {
   .invisible-character, .indent-guide {
     color: fade(@syntax-invisible-character-color, 18%);
   }
