@@ -1,7 +1,7 @@
 {
   "name": "elly-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "description": "A dark syntax theme with bold colors and highlighting. It's like a punch in the eyes.",
   "repository": {
