@@ -1,12 +1,12 @@
 {
-  "name": "elly-syntax",
+  "name": "elly-lab-syntax",
   "theme": "syntax",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "private": true,
   "description": "A dark syntax theme with bold colors and highlighting. It's like a punch in the eyes.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigdave/elly-syntax"
+    "url": "https://github.com/kundralaci/elly-syntax"
   },
   "license": "MIT",
   "engines": {
@@ -15,7 +15,7 @@
   "readme": "# A dark syntax theme\n",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/bigdave/elly-syntax/issues"
+    "url": "https://github.com/kundralaci/elly-syntax/issues"
   },
-  "homepage": "https://github.com/bigdave/elly-syntax"
+  "homepage": "https://github.com/kundralaci/elly-syntax"
 }

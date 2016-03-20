@@ -38,29 +38,19 @@ atom-text-editor, :host {
 
   // Find formatting
   .find-result .region {
-    background-color: transparent;
-    border: none;
-    box-shadow:
-      0 0 0 2px black,
-      0 0 0 3px @yellow,
-      0 0 5px 3px @yellow;
-    border-radius: 3px;
   }
   .current-result .region {
     border: none;
     box-shadow:
-      0 0 0 1px @syntax-selection-color,
-      0 0 0 3px @yellow,
-      0 0 5px 5px @yellow;
+      0 0 50px 15px fade(@white, 20%),
+	  0 0 150px 50px fade(@darkindigo, 40%);
     border-radius: 3px;
   }
 
   // Fancy comments, because comments should stand out, or be deleted
   .comment {
-    color: black;
-    background-color: @yellow;
-    box-shadow: 0 0 5px @yellow;
-    border-radius: 3px;
+    color: @gray3;
+    background-color: transparent;
 
     // Nested comments shouldn't double-box-shadow
     .comment {
@@ -82,10 +72,12 @@ atom-text-editor, :host {
   .constant.character,
   .constant.other {
     color: @indigo;
+	font-weight: 900;
   }
 
   .keyword {
     color: @red;
+	font-weight: 600;
   }
 
   .storage {
@@ -94,7 +86,8 @@ atom-text-editor, :host {
 
   .storage.type {
     font-style: italic;
-    color: @blue;
+	font-weight: 600;
+    color: @reddeep;
   }
 
   .entity.name.class {
@@ -113,11 +106,12 @@ atom-text-editor, :host {
   }
 
   .entity.name.instance {
-    color: @blue;
+    color: @green;
   }
 
   .variable.parameter {
     font-style: italic;
+	font-weight: 600;
     color: @orange;
   }
 
@@ -136,11 +130,11 @@ atom-text-editor, :host {
   .support.type,
   .support.class {
     font-style: italic;
-    color: @blue;
+    color: @violet;
   }
 
   .invalid {
     color: @white;
-    background-color: @red;
+    background-color: @reddeep;
   }
 }
