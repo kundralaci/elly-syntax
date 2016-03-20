@@ -7,4 +7,5 @@ This is a theme for people who want bold colors and high contrast. It's like a
 punch in the eyes.
 
 Original theme:
+
 ![](http://www.keiselbeardme.com/skitch.png)
